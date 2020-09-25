@@ -9,7 +9,7 @@ pushd caddy
 
 go mod init caddy
 
-go get -d -v github.com/caddyserver/caddy/v2@v2.1.1
+go get -d -v github.com/caddyserver/caddy/v2@v2.2.0
 
 CGO_ENABLED=0 go build -v -ldflags "-w -s" -trimpath
 

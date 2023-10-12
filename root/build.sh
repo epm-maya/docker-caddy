@@ -9,7 +9,7 @@ pushd caddy
 
 go mod init caddy
 
-go get -d -v github.com/caddyserver/caddy/v2@v2.7.4
+go get -d -v github.com/caddyserver/caddy/v2@v2.7.5
 
 go mod tidy
 

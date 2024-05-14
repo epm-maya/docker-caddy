@@ -1,5 +1,5 @@
 # docker-caddy
 
 ```
-$ docker build --no-cache --pull -t caddy .
+$ docker buildx build --no-cache --pull -t caddy .
 ```
